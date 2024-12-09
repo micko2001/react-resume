@@ -1,0 +1,84 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #d4ebf8;
+  color: #0a3981;
+}
+.ul-nav {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0a3981;
+}
+
+.li-nav {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.li-nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+}
+
+.li-nav a:hover:not(.active) {
+  background-color: #d4ebf8;
+}
+.logo {
+  width: 10%;
+}
+
+#foto-diri {
+  padding: 25px;
+  border-radius: 50%;
+  height: 300px;
+  margin-top: 20px;
+}
+.nama {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 300px; /* Adjust height as needed */
+  box-sizing: border-box;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  background-color: #1f509a;
+  color: #d4ebf8;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #e38e49;
+  color: #d4ebf8;
+}
+
+h1 {
+  padding: 10px 10px;
+  color: #e38e49;
+}
+h1:hover {
+  color: #d4ebf8;
+}
